@@ -1,0 +1,56 @@
+/* ========================================
+   DAY 2: Styling Your Web Page
+   CSS makes your page look awesome! 🎨
+   ======================================== */
+
+/* Style the entire page */
+body {
+  font-family: Arial, sans-serif; /* Easy-to-read font */
+  text-align: center; /* Center all text */
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 50px; /* Space around the edges */
+}
+
+/* Style the big title */
+h1 {
+  color: #2c3e50; /* Dark blue-gray color */
+  font-size: 48px; /* Big text */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* Style the paragraph */
+p {
+  color: #555; /* Gray color */
+  font-size: 20px; /* Medium text */
+  margin-bottom: 30px; /* Space below the paragraph */
+}
+
+/* Style the button */
+button {
+  background-color: #3498db; /* Blue background */
+  color: white; /* White text */
+  font-size: 24px; /* Big text */
+  padding: 15px 30px; /* Space inside the button */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Hand pointer when hovering */
+}
+
+/* Change button color when hovering over it */
+button:hover {
+  background-color: #2980b9; /* Darker blue */
+}
+
+/* Style the message box */
+#messageBox {
+  background-color: white; /* White background */
+  color: #333; /* Dark text */
+  font-size: 22px; /* Medium-large text */
+  padding: 30px; /* Space inside the box */
+  margin-top: 30px; /* Space above the box */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 500px; /* Maximum width */
+  margin-left: auto; /* Center the box */
+  margin-right: auto; /* Center the box */
+}
