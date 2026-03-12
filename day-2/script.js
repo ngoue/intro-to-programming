@@ -5,17 +5,17 @@
 
 // STEP 1: Find the button on the page
 // We use getElementById to grab the button by its id
-let button = document.getElementById("magicButton");
+const button = document.getElementById("magicButton");
 
 // STEP 2: Find the message box where we'll change the text
-let messageBox = document.getElementById("messageBox");
+const messageBox = document.getElementById("messageBox");
 
 // STEP 3: Keep track of how many times the button was clicked
 let clickCount = 0;
 
 // STEP 4: Add a click event to the button
 // This means "when someone clicks the button, do this stuff"
-button.addEventListener("click", function () {
+button.addEventListener("click", () => {
   // Add 1 to the click count each time
   clickCount = clickCount + 1;
 
